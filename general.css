@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  
+}
+body {
+  
+  background-color: #EDEBE9;
+  padding-top:73px;
+  overflow-x:hidden; 
+  position: relative;
+  /* max-width: max-content; */
+ 
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #054e26;
+}
+
+body::-webkit-scrollbar{
+ width: 10px   
+}
+body::-webkit-scrollbar-track{
+  background-color: rgb(235, 231, 231);
+ 
+}
+
+body::-webkit-scrollbar-thumb{
+ 
+ background-color: #025939;
+}
+
+a {
+  text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+a:hover{
+  color: #025939;
+}
